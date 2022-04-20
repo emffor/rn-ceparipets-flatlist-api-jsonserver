@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "rn-api-flatlist",
+    "slug": "rn-api-flatlist",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
