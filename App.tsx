@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Home } from './src/Home';
-
 import { ThemeProvider } from 'styled-components';
 import theme from './src/styles/theme';
 
@@ -28,6 +26,7 @@ import {
   Poppins_600SemiBold,
   Poppins_700Bold,
 } from '@expo-google-fonts/poppins';
+import { Home } from './src/screens/Home';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
