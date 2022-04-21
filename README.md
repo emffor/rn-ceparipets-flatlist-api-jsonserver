@@ -1,3 +1,9 @@
+
+# GIF expo/react native/flatlist/api
+
+https://user-images.githubusercontent.com/98027423/164534355-61198a83-c515-4780-b5ba-9488915a110a.mp4
+
+
 # Modelo React Native
 - **Expo** with **TypeScript**
 - **Styled Components**
