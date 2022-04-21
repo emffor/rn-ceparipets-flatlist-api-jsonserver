@@ -1,5 +1,7 @@
-import { RFValue } from 'react-native-responsive-fontsize';
 import styled from 'styled-components/native';
+import { DogDTO } from '../../dtos/DogDTO';
+import { FlatList, FlatListProps } from 'react-native';
+import { RFValue } from 'react-native-responsive-fontsize';
 
 export const Container = styled.View`
   flex: 1;
@@ -13,7 +15,7 @@ export const Header = styled.View`
   background-color: ${({ theme }) => theme.colors.primary};
 
   justify-content: flex-end;
-  padding: 0px 40px;
+  padding: 0px 20px;
 `;
 
 export const HeaderContent = styled.View`
@@ -22,10 +24,13 @@ export const HeaderContent = styled.View`
 `;
 
 export const Form = styled.View`
-  padding: 0px 15px;
+  margin-bottom: ${RFValue(170)}px;
 `;
 
-export const DogList = styled.FlatList.attrs({
+export const DogList =styled(FlatList as new (props: FlatListProps<DogDTO>) => FlatList<DogDTO>).attrs({
+  contentContainerStyle: {
+    padding: 12,
+  },
   showsVerticalScrollIndicator: false,
 })`
   

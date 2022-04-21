@@ -32,7 +32,7 @@ export function Dog({ data }: Props) {
             <Description>
                 <Breed>{data.breed}</Breed>
                 <Country>
-                    <Bold>País de Origem: </Bold> 
+                    <Bold>Origem: </Bold> 
                         {data.country}
                 </Country>
                 <Price>

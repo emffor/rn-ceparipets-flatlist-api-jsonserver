@@ -1,0 +1,75 @@
+{
+  "dogs":  [
+    {
+        "id": "1",
+        "image": "https://magazine.education.investing.com/br/wp-content/uploads/sites/4/2021/09/Article-Image-Most-Expensive-Dog-Breeds-In-The-World-Pug-1.jpg",
+        "breed": "Pug",
+        "country": "China",
+        "price": "1.000,00" 
+    },
+    {
+        "id": "2",
+        "image": "https://magazine.education.investing.com/br/wp-content/uploads/sites/4/2021/08/Article-Image-Most-Expensive-Dog-Breeds-In-The-World-Cavalier-King-Charles-Spaniel.jpg",
+        "breed": "Cavalier King Charles",
+        "country": "Reino Unido",
+        "price": "5.000,00" 
+    },
+    {
+        "id": "3",
+        "image": "https://magazine.education.investing.com/br/wp-content/uploads/sites/4/2021/08/Article-Image-Most-Expensive-Dog-Breeds-In-The-World-St.-Bernard.jpg",
+        "breed": "São Bernardo",
+        "country": "Itália/Suíça",
+        "price": "9.000,00" 
+    },
+    {
+        "id": "4",
+        "image": "https://magazine.education.investing.com/br/wp-content/uploads/sites/4/2021/08/Article-Image-Most-Expensive-Dog-Breeds-In-The-World-Caucasian-Ovtcharka.jpg",
+        "breed": "Pastor-do-cáucaso",
+        "country": "Geórgia",
+        "price": "10.000,00" 
+    },
+    {
+        "id": "5",
+        "image": "https://magazine.education.investing.com/br/wp-content/uploads/sites/4/2021/08/Article-Image-Most-Expensive-Dog-Breeds-In-The-World-Golden-Retriever.jpg",
+        "breed": "Golden Retriever",
+        "country": "Escócia",
+        "price": "10.000,00" 
+    },
+    {
+        "id": "6",
+        "image": "https://magazine.education.investing.com/br/wp-content/uploads/sites/4/2021/08/Article-Image-Most-Expensive-Dog-Breeds-In-The-World-Rottweiler.jpg",
+        "breed": "Rottweiler",
+        "country": "Alemanha",
+        "price": "10.000,00" 
+    },
+    {
+        "id": "7",
+        "image": "https://magazine.education.investing.com/br/wp-content/uploads/sites/4/2021/08/Article-Image-Most-Expensive-Dog-Breeds-In-The-World-Bulldog.jpg",
+        "breed": "Bulldog Inglês",
+        "country": "Inglaterra",
+        "price": "10.000,00" 
+    },
+    {
+        "id": "8",
+        "image": "https://magazine.education.investing.com/br/wp-content/uploads/sites/4/2021/08/Article-Image-Dogs-Chow-Chow.jpg",
+        "breed": "Chow Chow",
+        "country": "China",
+        "price": "12.500,00" 
+    },
+    {
+        "id": "9",
+        "image": "https://magazine.education.investing.com/br/wp-content/uploads/sites/4/2021/08/Article-Image-Most-Expensive-Dog-Breeds-In-The-World-Saluki.jpg",
+        "breed": "Saluki",
+        "country": "Egito",
+        "price": "12.500,00" 
+    },
+    {
+        "id": "10",
+        "image": "https://magazine.education.investing.com/br/wp-content/uploads/sites/4/2021/08/Article-Image-Most-Expensive-Dog-Breeds-In-The-World-Argentino-Dogo.jpg",
+        "breed": "Dogo Argentino",
+        "country": "Argentina",
+        "price": "25.000,00" 
+    }
+]
+
+}
