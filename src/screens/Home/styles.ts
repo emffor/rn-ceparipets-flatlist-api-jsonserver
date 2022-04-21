@@ -28,5 +28,5 @@ export const Form = styled.View`
 export const DogList = styled.FlatList.attrs({
   showsVerticalScrollIndicator: false,
 })`
-
+  
 `;

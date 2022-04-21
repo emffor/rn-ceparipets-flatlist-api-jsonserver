@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { StatusBar } from 'react-native';
 import { RFValue } from 'react-native-responsive-fontsize';
 
 import Logo from '../../assets/logo.svg';
 import { Dog } from '../../components/Dog';
+import api from '../../services/api';
 
 import {
   Container,
@@ -21,6 +22,17 @@ export function Home(){
     country: 'Malta',
     price: 'R$ 5.000,00',
   }
+
+  //no momento que a interface home for aberta - quero que ele va na api e busque os dados importantes para mim.
+
+  useEffect(() => {
+    async function fetchDogs() {
+      const response = await api.get('');
+      console.log(response);
+    }
+
+    fetchDogs();
+  },[])
 
   return (
     <Container>
