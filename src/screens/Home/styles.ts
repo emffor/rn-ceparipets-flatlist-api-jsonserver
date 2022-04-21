@@ -8,23 +8,25 @@ export const Container = styled.View`
 
 export const Header = styled.View`
   width: 100%;
-  height: 150px;
+  height: 170px;
 
-  background-color: ${({ theme }) => theme.colors.attention};
+  background-color: ${({ theme }) => theme.colors.primary};
 
   justify-content: flex-end;
-  padding: 32px 40px;
+  padding: 0px 40px;
 `;
 
 export const HeaderContent = styled.View`
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 `;
 
-export const TitleHeader = styled.Text`
-  font-size: ${RFValue(20)}px;
-  font-family: ${({ theme }) => theme.fonts.primary_700};
+export const Form = styled.View`
+  padding: 0px 15px;
+`;
 
-  color: ${({ theme }) => theme.colors.background_secondary};
+export const DogList = styled.FlatList.attrs({
+  showsVerticalScrollIndicator: false,
+})`
+
 `;
